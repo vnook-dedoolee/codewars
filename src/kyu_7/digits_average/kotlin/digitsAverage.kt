@@ -22,8 +22,11 @@ fun numberToDigits(number: Int): IntArray {
 }
 
 fun avgEachPair(digits: IntArray): Int {
+
     if (digits.size == 1) return digits[0]
+
     val result = mutableListOf<Int>()
+
     for (i in digits.indices) {
         if (i < digits.size - 1) {
             val num = digits[i] + digits[i + 1]
@@ -31,5 +34,6 @@ fun avgEachPair(digits: IntArray): Int {
             result.add(input)
         }
     }
+
     return avgEachPair(result.toIntArray())
 }
