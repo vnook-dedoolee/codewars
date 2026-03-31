@@ -13,7 +13,7 @@ object EulerOde {
         var sumError = 0.0
 
         for (k in 0..n) {
-            val z = 1 + 0.5 * exp(-4 * x) - 0.5 * Math.exp(-2 * x)
+            val z = 1 + 0.5 * exp(-4 * x) - 0.5 * exp(-2 * x)
 
             if (z != 0.0) {
                 sumError += abs(y - z) / z
