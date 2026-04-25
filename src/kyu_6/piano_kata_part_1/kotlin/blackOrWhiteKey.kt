@@ -1,3 +1,5 @@
+// https://www.codewars.com/kata/589273272fab865136000108/train/kotlin
+
 package kyu_6.piano_kata_part_1.kotlin
 
 fun blackOrWhiteKey(keyPressCount: Int): String {
