@@ -1,6 +1,6 @@
 // http://codewars.com/kata/5ca3ae9bb7de3a0025c5c740/train/kotlin
 
-package kyu_7.circular_list.kotlin
+package kyu_6.change_your_points_of_view.kotlin
 
 object PointView {
     fun point(a: Int, b: Int): () -> Pair<Int, Int> {
