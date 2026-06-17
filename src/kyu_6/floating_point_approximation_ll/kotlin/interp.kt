@@ -1,6 +1,6 @@
 // https://www.codewars.com/kata/581ee0db1bbdd04e010002fd/train/kotlin
 
-package kyu_7.circular_list.kotlin
+package kyu_6.floating_point_approximation_ll.kotlin
 
 import kotlin.math.floor
 
