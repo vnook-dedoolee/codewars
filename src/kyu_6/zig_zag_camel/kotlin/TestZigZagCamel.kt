@@ -1,4 +1,4 @@
-package kyu_6/zig_zag_camel/kotlin
+package kyu_6.zig_zag_camel.kotlin
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DisplayName
