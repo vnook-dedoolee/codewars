@@ -2,6 +2,4 @@
 
 package kyu_6.telepathy.kotlin
 
-fun magicShow(ans: String): Int {
-    // Your answer
-}
+fun magicShow(ans: String): Int = ans.split(": Yes").dropLast(1).sumOf { (1 shl (it.substringAfterLast("Card ")[0].digitToInt() - 1)) }
